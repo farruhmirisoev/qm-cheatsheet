@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<title>QM base styles</title>
+</head>
+<style>
+  .body{
+    font-family: 'Open Sans', sans-serif;
+  }
+</style>
+<body>
+    <div class="container mt-20">
+        <div class="h1 mb-5 text-center">Cheatsheet to style QM</div>
+        <div class="h3 text-center text-warning mb-10 font-size-14 fst-italic fw-normal">
+            (Read <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/" target="_blank">Bootstrap 5</a> docs to learn more.)
+        </div>
+        <div class="row">
+            <section class="col mb-10">
+                <h2>Font size</h2>
+                <div class="font-size-8">.font-size-8</div>
+                <div class="font-size-20">.font-size-20</div>
+            </section>
+            <section class="col mb-10">
+                <h2>Font weight</h2>
+                <div class="fw-bold">.fw-bold</div>
+                <div class="fw-semibold">.fw-semibold</div>
+            </section>
+            <section class="col mb-10">
+                <h2>Text color</h2>
+                <div class="text-gray-dark">.text-gray-dark</div>
+                <div class="text-secondary">.text-secondary</div>
+                <div class="text-danger">.text-danger</div>
+                <div class="text-warning">all color classes are in the root. If there is no color you need - write it hardcoded. Dont add color classes or vars</div>
+            </section>
+            <section class="col mb-10">
+                <h2>Badge</h2>
+                <div class="badge bg-secondary">.badge.bg-secondary</div>
+                <div class="badge bg-cyan text-black font-size-12 fw-semibold">.badge.bg-cyan.text-black.font-size-12.fw-semibold</div>
+                <div class="badge rounded-pill bg-warning fw-semibold font-size-14 py-1">badge rounded-pill bg-warning fw-semibold font-size-14 py-1</div>
+                <div class="badge rounded-pill bg-green-lighter text-green fw-semibold font-size-12 py-2 px-5">badge rounded-pill bg-green-lighter text-green fw-semibold font-size-12 py-2 px-5</div>
+            </section>
+            <section class="col mb-10">
+                <h2>Margin & Padding</h2>
+                <div class="mt-10">.mt-10 - margin top</div>
+                <div class="mb-8">.mb-8 - margin bottom</div>
+                <div class="ms-2">.ms-2 - margin start(left)</div>
+                <div class="me-2">.me-2 - margin end(right)</div>
+                <div class="m-10">.m-10 - margin all</div>
+                <div class="ms-n5">.ms-n5 - margin start(left) negative</div>
+                <div class="p-10 text-warning">padding works the same as margin</div>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
